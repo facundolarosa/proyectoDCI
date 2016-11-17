@@ -28,11 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -42,4 +43,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 5050 2650 0    60   Output ~ 0
+VDDD
+Text HLabel 5050 2800 0    60   Output ~ 0
+GNDD
+Text HLabel 5050 2950 0    60   Output ~ 0
+VDDA
+Text HLabel 5050 3100 0    60   Output ~ 0
+GNDA
 $EndSCHEMATC
