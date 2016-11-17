@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP150
+D Ultralow Noise 150 mA CMOS Linear Regulator
+K LDO, Regulador lineal
+F doc/Datasheets/ADP150 (Regulador lineal).pdf
+$ENDCMP
+#
+#End Doc Library
