@@ -1,9 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5933
+D  MSPS, 12-Bit Impedance Converter, Network Analyzer
+K Network Analyzer, Impedance
+F doc/Datasheets/AD5933 (Medidor impedancia).pdf
+$ENDCMP
+#
+$CMP AD8606
+D Precision, Low Noise, CMOS, Rail-to-Rail, perational Amplifiers
+K Rail to Rail, OPAMP
+F doc/Datasheets/AD8605 (OPAMP).pdf
+$ENDCMP
+#
 $CMP ADP150
 D Ultralow Noise 150 mA CMOS Linear Regulator
 K LDO, Regulador lineal
 F doc/Datasheets/ADP150 (Regulador lineal).pdf
+$ENDCMP
+#
+$CMP AG849
+D SPDT / 2:1 (Mux)
+K SPDT, Mux
+F doc/Datasheets/ADG849 (SPDT).pdf
+$ENDCMP
+#
+$CMP ASFLMB-16.000MHZ-LY-T
+D 16MHz LVCMOS MEMS Oscillator
+K Oscillator
+F doc/Datasheets/ASFLMB (Referencia reloj).pdf
 $ENDCMP
 #
 #End Doc Library

@@ -28,12 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:PMOD_IA
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -43,14 +44,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3050 2300 0    60   Input ~ 0
+Text HLabel 1200 900  0    60   Input ~ 0
 VDDD
-Text HLabel 3050 2500 0    60   Input ~ 0
+Text HLabel 1200 1300 0    60   Input ~ 0
 GNDD
-Text HLabel 3050 2700 0    60   Input ~ 0
+Text HLabel 1200 1700 0    60   Input ~ 0
 VDDA
-Text HLabel 3050 2900 0    60   Input ~ 0
+Text HLabel 1200 2100 0    60   Input ~ 0
 GNDA
 Text HLabel 3050 3100 0    60   Input ~ 0
 MCLK
+Wire Wire Line
+	1200 900  2150 900 
+Wire Wire Line
+	1200 1300 2150 1300
+Wire Wire Line
+	1200 1700 2150 1700
+Wire Wire Line
+	1200 2100 2150 2100
+Text Label 1600 900  0    60   ~ 12
+VCC
+Text Label 1600 1300 0    60   ~ 12
+GND
+Text Label 1550 1700 0    60   ~ 12
+VCC3V0
+Text Label 1600 2100 0    60   ~ 12
+GND
 $EndSCHEMATC

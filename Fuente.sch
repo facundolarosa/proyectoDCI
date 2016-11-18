@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:PMOD_IA
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
@@ -45,10 +46,123 @@ Comment4 ""
 $EndDescr
 Text HLabel 5050 2650 0    60   Output ~ 0
 VDDD
-Text HLabel 5050 2800 0    60   Output ~ 0
+Text HLabel 5050 3150 0    60   Output ~ 0
 GNDD
-Text HLabel 5050 2950 0    60   Output ~ 0
+Text HLabel 7500 2650 2    60   Output ~ 0
 VDDA
-Text HLabel 5050 3100 0    60   Output ~ 0
+Text HLabel 7500 3150 2    60   Output ~ 0
 GNDA
+$Comp
+L ADP150 IC2
+U 1 1 582F5A80
+P 6350 2700
+F 0 "IC2" H 6350 3000 59  0000 C CNN
+F 1 "ADP150" H 6350 3100 59  0000 C CNN
+F 2 "" H 6350 2700 59  0001 C CNN
+F 3 "" H 6350 2700 59  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2650 5700 2650
+Wire Wire Line
+	5700 2650 5500 2650
+Wire Wire Line
+	5500 2650 5250 2650
+Wire Wire Line
+	5250 2650 5050 2650
+Wire Wire Line
+	5800 2800 5700 2800
+Wire Wire Line
+	5700 2800 5700 2650
+Connection ~ 5700 2650
+Wire Wire Line
+	6900 2650 6950 2650
+Wire Wire Line
+	6950 2650 7200 2650
+Wire Wire Line
+	7200 2650 7500 2650
+$Comp
+L C C3
+U 1 1 582F5B1F
+P 5250 2900
+F 0 "C3" H 5275 3000 50  0000 L CNN
+F 1 "10uF" H 5275 2800 50  0000 L CNN
+F 2 "" H 5288 2750 50  0000 C CNN
+F 3 "" H 5250 2900 50  0000 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 582F5B72
+P 5500 2900
+F 0 "C4" H 5525 3000 50  0000 L CNN
+F 1 "0,1uF" H 5525 2800 50  0000 L CNN
+F 2 "" H 5538 2750 50  0000 C CNN
+F 3 "" H 5500 2900 50  0000 C CNN
+	1    5500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 582F5BCF
+P 6950 2900
+F 0 "C5" H 6975 3000 50  0000 L CNN
+F 1 "10uF" H 6975 2800 50  0000 L CNN
+F 2 "" H 6988 2750 50  0000 C CNN
+F 3 "" H 6950 2900 50  0000 C CNN
+	1    6950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 582F5C15
+P 7200 2900
+F 0 "C6" H 7225 3000 50  0000 L CNN
+F 1 "0,1uF" H 7225 2800 50  0000 L CNN
+F 2 "" H 7238 2750 50  0000 C CNN
+F 3 "" H 7200 2900 50  0000 C CNN
+	1    7200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2750 5250 2650
+Connection ~ 5250 2650
+Wire Wire Line
+	5500 2750 5500 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	7500 3150 7200 3150
+Wire Wire Line
+	7200 3150 6950 3150
+Wire Wire Line
+	6950 3150 6350 3150
+Wire Wire Line
+	6350 3150 5500 3150
+Wire Wire Line
+	5500 3150 5250 3150
+Wire Wire Line
+	5250 3150 5050 3150
+Wire Wire Line
+	6350 3100 6350 3150
+Connection ~ 6350 3150
+Wire Wire Line
+	5250 3050 5250 3150
+Connection ~ 5250 3150
+Wire Wire Line
+	5500 3050 5500 3150
+Connection ~ 5500 3150
+Wire Wire Line
+	6950 3050 6950 3150
+Connection ~ 6950 3150
+Wire Wire Line
+	7200 3050 7200 3150
+Connection ~ 7200 3150
+Wire Wire Line
+	7200 2750 7200 2650
+Connection ~ 7200 2650
+Wire Wire Line
+	6950 2750 6950 2650
+Connection ~ 6950 2650
 $EndSCHEMATC

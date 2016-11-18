@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:PMOD_IA
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
