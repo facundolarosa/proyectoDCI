@@ -41,8 +41,8 @@ Title "Medidor de impedancia (PMOD)"
 Date "2016-11-17"
 Rev "A"
 Comp "CESE - FIUBA"
-Comment1 "Autor: FSL"
-Comment2 "Revisor: EG"
+Comment1 "Autor: LAROSA, F."
+Comment2 "Revisor: GIGLIOTTI, E."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -82,8 +82,6 @@ Wire Notes Line
 	7500 5250 7850 5250
 Wire Notes Line
 	7500 5550 7850 5550
-Text Notes 7500 5250 0    60   ~ 0
-VDD_In
 Text Notes 7500 5550 0    60   ~ 0
 GND_In
 Wire Notes Line
@@ -94,8 +92,6 @@ Wire Notes Line
 	8850 5450 9250 5450
 Wire Notes Line
 	8850 5550 9250 5550
-Text Notes 8900 5250 0    60   ~ 0
-VDDD
 Text Notes 8900 5350 0    60   ~ 0
 GNDD\n
 Text Notes 8900 5450 0    60   ~ 0
@@ -224,4 +220,8 @@ Text Notes 5350 4350 0    118  ~ 24
 Reloj
 Text Notes 4800 4750 0    79   ~ 0
 El módulo de reloj genera\nuna fuente alternativa de \nreloj para el módulo de señal
+Text Notes 8900 5250 0    60   ~ 0
+VDDD
+Text Notes 7500 5250 0    60   ~ 0
+VDD_In
 $EndSCHEMATC

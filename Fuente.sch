@@ -37,12 +37,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Medidor de impedancia (PMOD)"
+Date "2016-11-17"
+Rev "A"
+Comp "CESE - FIUBA"
+Comment1 "Autor: LAROSA, F."
+Comment2 "Revisor: GIGLIOTTI, E."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -80,7 +80,7 @@ U 1 1 582F5B1F
 P 5250 2900
 F 0 "C8" H 5275 3000 50  0000 L CNN
 F 1 "10uF" H 5275 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5288 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5288 2750 50  0001 C CNN
 F 3 "" H 5250 2900 50  0000 C CNN
 	1    5250 2900
 	1    0    0    -1  
@@ -91,7 +91,7 @@ U 1 1 582F5B72
 P 5500 2900
 F 0 "C9" H 5525 3000 50  0000 L CNN
 F 1 "0,1uF" H 5525 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5538 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5538 2750 50  0001 C CNN
 F 3 "" H 5500 2900 50  0000 C CNN
 	1    5500 2900
 	1    0    0    -1  
@@ -102,7 +102,7 @@ U 1 1 582F5BCF
 P 6950 2900
 F 0 "C10" H 6975 3000 50  0000 L CNN
 F 1 "10uF" H 6975 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6988 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6988 2750 50  0001 C CNN
 F 3 "" H 6950 2900 50  0000 C CNN
 	1    6950 2900
 	1    0    0    -1  
@@ -113,7 +113,7 @@ U 1 1 582F5C15
 P 7200 2900
 F 0 "C11" H 7225 3000 50  0000 L CNN
 F 1 "0,1uF" H 7225 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 7238 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 7238 2750 50  0001 C CNN
 F 3 "" H 7200 2900 50  0000 C CNN
 	1    7200 2900
 	1    0    0    -1  

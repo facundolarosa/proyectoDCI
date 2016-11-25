@@ -37,12 +37,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Medidor de impedancia (PMOD)"
+Date "2016-11-17"
+Rev "A"
+Comp "CESE - FIUBA"
+Comment1 "Autor: LAROSA, F."
+Comment2 "Revisor: GIGLIOTTI, E."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -69,7 +69,7 @@ U 1 1 582F57A1
 P 5150 3900
 F 0 "C6" H 5175 4000 50  0000 L CNN
 F 1 "0,1uF" H 5175 3800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5188 3750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5188 3750 50  0001 C CNN
 F 3 "" H 5150 3900 50  0000 C CNN
 	1    5150 3900
 	1    0    0    -1  
@@ -80,7 +80,7 @@ U 1 1 582F57DC
 P 6800 4000
 F 0 "C7" H 6825 4100 50  0000 L CNN
 F 1 "0,1uF" H 6825 3900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6838 3850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6838 3850 50  0001 C CNN
 F 3 "" H 6800 4000 50  0000 C CNN
 	1    6800 4000
 	1    0    0    -1  
