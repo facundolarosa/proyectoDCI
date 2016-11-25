@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 3
 Title "Medidor de impedancia (PMOD)"
 Date "2016-11-17"
 Rev "A"
