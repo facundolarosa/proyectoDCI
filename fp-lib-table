@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name sma)(type Legacy)(uri "$(KIPRJMOD)/proyecto.pretty/sma.mod")(options "")(descr ""))
+  (lib (name SMA_EDGE)(type Legacy)(uri "$(KIPRJMOD)/proyecto.pretty/SMA_EDGE.mod")(options "")(descr ""))
+  (lib (name propios)(type KiCad)(uri "$(KIPRJMOD)/propios.pretty")(options "")(descr ""))
+)

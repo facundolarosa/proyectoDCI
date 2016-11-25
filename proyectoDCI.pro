@@ -1,4 +1,4 @@
-update=vie 18 nov 2016 19:03:08 ART
+update=vie 25 nov 2016 09:15:44 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=libs/PMOD_IA
 LibName31=libs/SMA
+LibName32=libs/sma2

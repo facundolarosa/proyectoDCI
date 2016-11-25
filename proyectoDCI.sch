@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:PMOD_IA
 LIBS:SMA
+LIBS:sma2
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
