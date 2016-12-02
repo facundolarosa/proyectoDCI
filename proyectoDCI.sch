@@ -115,10 +115,10 @@ Z
 Text Notes 10450 5050 0    59   ~ 0
 Impedancia\na medir
 Wire Notes Line
-	7500 4750 9450 4750
+	7200 4750 9450 4750
 Wire Notes Line
 	9450 4750 9450 5150
-Text Notes 7500 4750 0    60   ~ 0
+Text Notes 7200 4750 0    60   ~ 0
 I2C
 $Sheet
 S 6650 2100 1250 1200
@@ -147,9 +147,9 @@ Text Notes 6950 1450 0    118  ~ 24
 Señal
 Text Notes 6300 1850 0    79   ~ 0
 El módulo de señal realiza el \nacondicionamiento de señales \ny mide la impedancia de un dipolo
-Text Notes 3650 3700 0    118  ~ 24
+Text Notes 3650 750  0    118  ~ 24
 Reloj
-Text Notes 3050 4100 0    79   ~ 0
+Text Notes 2950 1200 0    79   ~ 0
 El módulo de reloj genera\nuna fuente alternativa de \nreloj para el módulo de señal
 Wire Notes Line
 	9250 6100 8400 6100
@@ -158,8 +158,8 @@ Wire Notes Line
 $Sheet
 S 3250 2100 1200 1200
 U 582DA8A0
-F0 "Fuente" 118
-F1 "Fuente.sch" 118
+F0 "Otros" 118
+F1 "Otros.sch" 118
 F2 "VDDD" O R 4450 2300 60 
 F3 "GNDD" O R 4450 2500 60 
 F4 "VDDA" O R 4450 2700 60 
@@ -168,4 +168,8 @@ F6 "MCLK" O R 4450 3100 60
 $EndSheet
 Wire Wire Line
 	4450 3100 6650 3100
+Wire Notes Line
+	7200 5400 7850 5400
+Text Notes 7200 5400 0    60   ~ 0
+Alimentación
 $EndSCHEMATC
