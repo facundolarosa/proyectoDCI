@@ -3,7 +3,7 @@
   (general
     (links 71)
     (no_connects 0)
-    (area 149.924999 100.424999 195.075001 120.575001)
+    (area 131.350001 99.684 215.156001 144.88)
     (thickness 1.6)
     (drawings 74)
     (tracks 251)
@@ -24,7 +24,7 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -163,7 +163,7 @@
       (net 2 GND))
     (pad 1 connect rect (at -9.144 1.27) (size 4.07162 1.99898) (layers F.Cu F.Mask)
       (net 14 /Senal/COUT))
-    (model /home/fsl/Documentos/ESE/Kicad/Proyecto/proyectoDCI/proyecto.3dshapes/SMAEdge.wrl
+    (model ${KIPRJMOD}/proyecto.3dshapes/SMAEdge.wrl
       (at (xyz -0.205 -0.05 -0.12))
       (scale (xyz 1 1 1))
       (rotate (xyz 270 0 180))
@@ -187,7 +187,7 @@
       (net 2 GND))
     (pad 1 connect rect (at -9.144 1.27) (size 4.07162 1.99898) (layers F.Cu F.Mask)
       (net 15 /Senal/CIN))
-    (model /home/fsl/Documentos/ESE/Kicad/Proyecto/proyectoDCI/proyecto.3dshapes/SMAEdge.wrl
+    (model ${KIPRJMOD}/proyectoDCI/proyecto.3dshapes/SMAEdge.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1201,6 +1201,16 @@
   (gr_line (start 195.056 110.73) (end 215.056 110.73) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 150 113) (end 141 113) (angle 90) (layer Dwgs.User) (width 0.2))
 
+  (via (at 184.404 102.87) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 188.214 110.744) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 184.658 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 180.594 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 170.434 115.57) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 163.83 110.998) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 165.862 105.41) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 164.084 114.3) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 154.94 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 151.892 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 0))
   (segment (start 154.686 115.824) (end 156.276 115.824) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 156.45 115.65) (end 157.4 115.65) (width 0.3) (layer F.Cu) (net 1) (tstamp 584B4E95))
   (segment (start 156.276 115.824) (end 156.45 115.65) (width 0.3) (layer F.Cu) (net 1) (tstamp 584B4E8F))
@@ -1227,16 +1237,6 @@
   (segment (start 159.584 107.666) (end 159.6 107.65) (width 0.3) (layer F.Cu) (net 1) (tstamp 584B3B11))
   (segment (start 157.6 107.65) (end 159.6 107.65) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 171 110.75) (end 173 110.75) (width 0.3) (layer F.Cu) (net 1))
-  (via (at 184.404 102.87) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 188.214 110.744) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 184.658 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 180.594 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 170.434 115.57) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 163.83 110.998) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 165.862 105.41) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 164.084 114.3) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 154.94 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 151.892 118.872) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 161.85 117.77) (end 162.73 117.77) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 163.15 117.35) (end 164 117.35) (width 0.3) (layer F.Cu) (net 2) (tstamp 584B4C48))
   (segment (start 162.73 117.77) (end 163.15 117.35) (width 0.3) (layer F.Cu) (net 2) (tstamp 584B4C46))
