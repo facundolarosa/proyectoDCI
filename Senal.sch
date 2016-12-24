@@ -1,36 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:PMOD_IA
 LIBS:SMA
-LIBS:sma2
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
@@ -43,8 +16,8 @@ Rev "A"
 Comp "CESE - FIUBA"
 Comment1 "Autor: LAROSA, F."
 Comment2 "Revisor: GIGLIOTTI, E."
-Comment3 ""
-Comment4 ""
+Comment3 "Licencia: BSD"
+Comment4 "Asignatura: Diseño de Circuitos Impresos"
 $EndDescr
 Text HLabel 1600 1300 0    60   Input ~ 0
 VDDD
@@ -64,6 +37,7 @@ F 0 "U1" H 10450 1850 60  0000 C CNN
 F 1 "AD5933" H 10450 1950 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-16_5.3x6.2mm_Pitch0.65mm" H 10450 1400 60  0001 C CNN
 F 3 "" H 10450 1400 60  0001 C CNN
+F 4 "AD5933YRSZ-REEL7CT-ND" H 10450 1400 60  0001 C CNN "Digikey#"
 	3    10450 1400
 	1    0    0    -1  
 $EndComp
@@ -75,6 +49,7 @@ F 0 "C2" H 9225 1400 50  0000 L CNN
 F 1 "10uF" H 9225 1200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9238 1150 50  0001 C CNN
 F 3 "" H 9200 1300 50  0000 C CNN
+F 4 "478-1215-1-ND" H 9200 1300 60  0001 C CNN "Digikey#"
 	1    9200 1300
 	1    0    0    -1  
 $EndComp
@@ -86,6 +61,7 @@ F 0 "C4" H 9525 1400 50  0000 L CNN
 F 1 "0.1uF" H 9525 1200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9538 1150 50  0001 C CNN
 F 3 "" H 9500 1300 50  0000 C CNN
+F 4 "478-1215-1-ND" H 9500 1300 60  0001 C CNN "Digikey#"
 	1    9500 1300
 	1    0    0    -1  
 $EndComp
@@ -222,6 +198,7 @@ F 0 "C3" H 9425 2700 50  0000 L CNN
 F 1 "10uF" H 9425 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9438 2450 50  0001 C CNN
 F 3 "" H 9400 2600 50  0000 C CNN
+F 4 "478-1215-1-ND" H 9400 2600 60  0001 C CNN "Digikey#"
 	1    9400 2600
 	1    0    0    -1  
 $EndComp
@@ -233,6 +210,7 @@ F 0 "C5" H 9675 2700 50  0000 L CNN
 F 1 "0.1uF" H 9675 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9688 2450 50  0001 C CNN
 F 3 "" H 9650 2600 50  0000 C CNN
+F 4 "478-1215-1-ND" H 9650 2600 60  0001 C CNN "Digikey#"
 	1    9650 2600
 	1    0    0    -1  
 $EndComp

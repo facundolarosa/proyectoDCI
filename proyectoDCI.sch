@@ -1,36 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:PMOD_IA
 LIBS:SMA
-LIBS:sma2
 LIBS:proyectoDCI-cache
 EELAYER 25 0
 EELAYER END
@@ -43,8 +16,8 @@ Rev "A"
 Comp "CESE - FIUBA"
 Comment1 "Autor: LAROSA, F."
 Comment2 "Revisor: GIGLIOTTI, E."
-Comment3 ""
-Comment4 ""
+Comment3 "Licencia: BSD"
+Comment4 "Asignatura: Diseño de Circuitos Impresos"
 $EndDescr
 Text Notes 8450 4550 0    118  ~ 24
 Diagrama en bloques
